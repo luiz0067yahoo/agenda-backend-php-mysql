@@ -1,0 +1,6 @@
+RewriteEngine on
+
+/index.php [NC]
+
+
+ErrorDocument 404 /404.php
