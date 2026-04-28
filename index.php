@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 // ====================== CORS HEADERS ======================
 if (isset($_SERVER['HTTP_ORIGIN'])) {
     // For development: allow the specific frontend origin
-    header("Access-Control-Allow-Origin: http://localhost:8082");
+    header("Access-Control-Allow-Origin: http://localhost:8081");
     
     // Alternative (less secure, but convenient for local dev with multiple ports/tools):
     // header("Access-Control-Allow-Origin: *");
